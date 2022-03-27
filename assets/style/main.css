@@ -17,6 +17,22 @@ body {
   margin-bottom: -400px;
 }
 
+hr:not([size]) {
+ height: 3px;
+}
+
+.hr1 {
+  background: #ede010;
+  max-width: 170px;
+  margin: 0px;
+}
+
+.hr2 {
+  background: #ede010;
+  width: 80px;
+  margin:0 auto;
+}
+
 #header p {
   font-size: 12px;
 }
