@@ -80,6 +80,14 @@ body {
           box-shadow: 2px 2px 10px #a3a3a3;
   -webkit-transition: 0.6s;
   transition: 0.6s;
+  text-decoration: none;
+}
+
+.card-news:hover .image-wrapper .card-image {
+  -webkit-transform: scale(1.08);
+          transform: scale(1.08);
+  -webkit-transition: 0.6s ease;
+  transition: 0.6s ease;
 }
 
 .card-news:hover .cta {
@@ -132,7 +140,7 @@ body {
 }
 
 .card-news .card-content .card-body {
-  min-height: 165px;
+  min-height: 180px;
 }
 
 .card-news .card-content .card-body .card-copy h5 {
@@ -148,7 +156,7 @@ body {
 
 .card-news .card-content .card-body .card-copy .card-date,
 .card-news .card-content .card-body .card-copy .card-author {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 300;
 }
 

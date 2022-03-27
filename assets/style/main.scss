@@ -72,6 +72,15 @@ body {
     color: #500f0f;
     box-shadow: 2px 2px 10px #a3a3a3;
     transition: 0.6s;
+    text-decoration: none;
+
+    .image-wrapper {
+      .card-image {
+        transform: scale(1.08);
+        transition: 0.6s ease;
+      }
+    }
+
     .cta {
       color: #ff4444;
     }
@@ -120,7 +129,7 @@ body {
   }
   .card-content {
     .card-body {
-      min-height: 165px;
+      min-height: 180px;
       .card-copy {
         h5 {
           font-size: 16px;
@@ -133,7 +142,7 @@ body {
         }
         .card-date,
         .card-author {
-          font-size: 12px;
+          font-size: 14px;
           font-weight: 300;
         }
       }
