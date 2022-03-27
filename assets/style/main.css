@@ -17,6 +17,30 @@ body {
   margin-bottom: -400px;
 }
 
+hr:not([size]) {
+ height: 3px;
+}
+
+.hr1 {
+  background: #e00120;
+  max-width: 170px;
+  margin: 0px;
+}
+
+.hr2 {
+  background: #e00120;
+  width: 80px;
+  margin:0 auto;
+}
+
+.title-sidebar {
+  content: "";
+  display: block;
+  margin: 10px auto 45px -35px;
+  width: 200px;
+  border-bottom: 4px solid #e00120;
+}
+
 #header p {
   font-size: 12px;
 }
