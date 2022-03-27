@@ -22,13 +22,13 @@ hr:not([size]) {
 }
 
 .hr1 {
-  background: #ede010;
+  background: #e00120;
   max-width: 170px;
   margin: 0px;
 }
 
 .hr2 {
-  background: #ede010;
+  background: #e00120;
   width: 80px;
   margin:0 auto;
 }
